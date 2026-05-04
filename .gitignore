@@ -2,12 +2,18 @@
 
 # dependencies
 node_modules/
+.yarn/
+.pnp.*
 
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
+
+# EAS
+eas-build-local.json
+.eas/
 
 # Native
 .kotlin/
@@ -30,13 +36,42 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
 # local env files
+.env
+.env.*
 .env*.local
 
 # typescript
 *.tsbuildinfo
 
+# testing
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Misc
 app-example
+*.bak
+*.tmp
 
 # generated native folders
 /ios
